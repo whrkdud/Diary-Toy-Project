@@ -1,0 +1,16 @@
+* {
+    /* border: 1px solid black; */
+}
+
+/*all*/
+p {
+    margin: 0;
+}
+
+/*app*/
+.app {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    box-sizing: border-box;
+}

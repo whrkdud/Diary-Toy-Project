@@ -1,0 +1,127 @@
+.findIdWrap {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.findIdX {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+.findIdX p {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.findIdTitle {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    box-sizing: border-box;
+    padding: 0 10%;
+    color: #606c38;
+}
+
+.findIdTitle p {
+    margin: 0 0 0 3%;
+}
+
+.findIdInput {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.findIdInput > * {
+    margin: 5% 0;
+}
+
+.findIdInput > input {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #606c38;
+}
+
+.findIdInput input {
+    font-size: medium;
+    color: gray;
+}
+
+.findIdInput input:focus {
+    outline: none;
+}
+
+.findIdInput input::placeholder {
+    color: lightgray;
+}
+
+.findIdName {
+    margin-top: 0;
+}
+
+/* .registerAlert {
+    display: none;
+    color: red;
+    text-align: center;
+    font-size: small;
+} */
+
+.findIdFinish {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.findIdFinishText {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.findIdFinishText > * {
+    color: gray;
+    margin: 3% 0;
+}
+
+.findIdFinishText1 {
+    display: flex;
+    margin-top: 10%;
+}
+
+.findIdFinishText1-2 {
+    font-weight: bold;
+    color: #606c38;
+}
+
+.findIdNext,
+.findIdSuccess {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #606c38;
+    color: white;
+    margin-top: 10%
+}

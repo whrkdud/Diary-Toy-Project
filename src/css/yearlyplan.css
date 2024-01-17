@@ -1,0 +1,48 @@
+.todo-list li::marker {
+    content : none
+}
+
+.ck-editor__editable {
+    height: 400px;
+}
+
+.yearlyModalX {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+.yearlyModalX p {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.yearlyTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.yearlyButton{
+    width:100%;
+    display: flex;
+    justify-content: end;
+}
+.yearlyYear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.yearlyContents{
+    display: none;
+}
+.contentlist{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}

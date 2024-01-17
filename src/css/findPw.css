@@ -1,0 +1,104 @@
+.findPwWrap {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.findPwX {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+.findPwX p {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.findPwTitle {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    box-sizing: border-box;
+    padding: 0 10%;
+    color: #606c38;
+}
+
+.findPwTitle p {
+    margin: 0 0 0 3%;
+}
+
+.findPwProcess {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: #606c38;
+}
+
+.findPwInput {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.findPwInput > * {
+    margin: 5% 0;
+}
+
+.findPwInput > input {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #606c38;
+}
+
+.findPwInput input {
+    font-size: medium;
+    color: gray;
+}
+
+.findPwInput input:focus {
+    outline: none;
+}
+
+.findPwInput input::placeholder {
+    color: lightgray;
+}
+
+.findPwId,
+.findPwNewPw {
+    margin-top: 0;
+}
+
+/* .registerAlert {
+    display: none;
+    color: red;
+    text-align: center;
+    font-size: small;
+} */
+
+.findPwNext,
+.findPwSuccess {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #606c38;
+    color: white;
+    margin-top: 10%
+}
